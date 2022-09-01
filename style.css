@@ -1,11 +1,10 @@
 html, body {
-  height: 100%;
-  width: 100%;
-}
-
-label {
-    width:180px;
+    height: 100%;
+    width: 100%;
+  }
+  
+.nome, .sobrenome, .genero, .email, .pass, .terms, .data{
     clear:left;
-    text-align:right;
-    padding-right:10px;
-}
+    
+    font-weight: bold;
+    }

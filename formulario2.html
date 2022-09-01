@@ -14,35 +14,36 @@
     <h1>Register</h1>
     <form>
       <div>
-        <label id="nome">First Name: </label>
+        <label class="nome">First Name: </label>
         <input type="text" id="nome" placeholder="John" required>
       </div>
       <div>
-        <label id="sobrenome">Last Name:</label>
+        <label class="sobrenome">Last Name:</label>
         <input type="text" id="sobrenome" placeholder="Smith" required>
       </div>
  <hr> 
       <div>
-        <label for="radio-choice1">Male</label>
+        <label class="genero">Gender:­</label>
+        <label for="radio-choice">Male</label>
         <input type="radio" id="radio-choice1" value="choice-1" name="radiochoice"/>
   
-        <label for="radio-choice2">Female</label>
+        <label for="radio-choice">Female</label>
         <input type="radio" id="radio-choice2" value="choice-2" name="radiochoice"/>
   
-        <label for="radio-choice3">Other</label>
+        <label for="radio-choice">Other</label>
         <input type="radio" id="radio-choice3" value="choice-3" name="radiochoice"/>
       </div>
 <hr>
       <div>
-        <label id="email">E-mail:</label>
+        <label class="email">E-mail:</label>
         <input type="email" id="email" placeholder="your email" required>
 
-        <label id="password">Password:</label>
+        <label id="password" class="pass">Password:</label>
         <input type="password" id="password" placeholder="your password" minlength="5" maxlength="10" required>
       </div>
 <hr>
-      <div class="data de nascimento">
-        <label id="birthday">Birthday</label>
+      <div class="data">
+        <label id="birthday">Birthday: </label>
             <select name="month" id="date">
                 <option value="january">January</option>
                 <option value="february">February</option>
@@ -77,7 +78,7 @@
       </div>
 <hr>
       <div>
-        <label>I agree to the terms and conditions</label>
+        <label class="terms">I agree to the terms and condition</label>
         <input type="checkbox" required>
       </div>
   
